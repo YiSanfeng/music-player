@@ -1,31 +1,31 @@
 [{
-  "src": "/music/ifyou.mp3",
+  "src": "./music/ifyou.mp3",
   "title": "IF YOU",
   "author": "Big Bang",
-  "img": "/music/if-you.png"
+  "img": "./music/if-you.png"
 },
  {
-   "src": "/music/我们的歌.mp3",
+   "src": "./music/我们的歌.mp3",
    "title": "我们的歌",
    "author": "王力宏",
-   "img": "/music/王力宏.png"
+   "img": "./music/王力宏.png"
  },
  {
-   "src": "/music/南半球与北海道.mp3",
+   "src": "./music/南半球与北海道.mp3",
    "title": "南半球与北海道",
    "author": "范伲Liu",
-   "img": "/music范伲Liu.png"
+   "img": "./music范伲Liu.png"
  },
  {
-   "src": "/music/水星记.mp3",
+   "src": "./music/水星记.mp3",
    "title": "水星记",
    "author": "郭顶",
-   "img": "/music/郭顶.png"
+   "img": "./music/郭顶.png"
  },
  {
-   "src": "/music/遗失的心跳.mp3",
+   "src": "./music/遗失的心跳.mp3",
    "title": "遗失的心跳",
    "author": "萧亚轩",
-   "img": "/music/萧亚轩.png"
+   "img": "./music/萧亚轩.png"
  }
 ]

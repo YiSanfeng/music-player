@@ -1,6 +1,6 @@
 console.log("hello");
 let musicList = [];
-fetch("/data.json")
+fetch("./data.json")
   .then((res) => res.json())
   .then((ret) => {
     console.log(ret);
