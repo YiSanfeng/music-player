@@ -1,0 +1,37 @@
+{
+  "id": "3897176",
+  "name": "player",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7424",
+      "name": "推广中",
+      "font_class": "playing",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "7425",
+      "name": "暂停",
+      "font_class": "pause",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "2076208",
+      "name": "快退",
+      "font_class": "play-left",
+      "unicode": "e878",
+      "unicode_decimal": 59512
+    },
+    {
+      "icon_id": "2076210",
+      "name": "快进",
+      "font_class": "play-right",
+      "unicode": "e879",
+      "unicode_decimal": 59513
+    }
+  ]
+}

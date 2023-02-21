@@ -1,0 +1,98 @@
+body{
+    margin:0;
+}
+.cover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background:url(https://s2.loli.net/2023/02/15/7KR3NiacBuy6hMl.jpg)center center no-repeat;
+    background-size:cover;
+    filter: blur(2px);
+    transform: scale(1.2);
+}
+.player{
+    position:fixed;
+    top: 50%;
+    left:50%;
+    z-index: 10;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding:20px 40px;
+    border-radius: 4px;
+    color:#ea8989;
+    background: rgba(255,255,255,0.9);
+}
+
+.player .main{
+    display: flex;
+}
+
+.player .buttons{
+    margin-top: 8px;
+}
+
+.player .buttons .iconfont{
+    font-size: 32px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.player .buttons .iconfont:hover{
+    opacity: 0.7;
+}
+
+.player .texts{
+    margin-left: 20px;
+}
+
+.player .texts h3{
+    margin-top:14px;
+    margin-bottom: 8px;
+}
+
+.player .texts p{
+    margin-top:14px;
+}
+
+.player .bar{
+    height: 3px;
+    border-radius: 4px;
+    background: gray
+}
+
+.player .progress{
+    height: 100%;
+    width: 0%;
+    border-radius: 3px;
+    background:#ea8989;
+    transition: width ,1s;
+}
+
+.player .time{
+    text-align: right;
+    margin-top: 8px;
+}
+#canvas1 {
+  position: fixed;
+  left: 100px;
+  z-index: 2;
+}
+
+#canvas2 {
+  position: fixed;
+  right: 100px;
+  top: 200px;
+  z-index: 3;
+}
+
+#canvas3 {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  z-index: 1;
+}
